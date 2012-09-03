@@ -1,4 +1,6 @@
 minimal85
 =========
 
-Code snippets for Attiny85 via Arduino-Tiny
+Code snippets for Atmel ATtiny85 (http://www.atmel.com/devices/ATTINY85.aspx) via Arduino-Tiny (http://code.google.com/p/arduino-tiny/)
+
+...
