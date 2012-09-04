@@ -9,17 +9,15 @@
 // constants won't change. They're used here to 
 // set pin numbers:
 const int buttonPin = 1;     // the number of the pushbutton pin
-
-SoftwareSerial mySerial(2, 3); // RX, TX
+const int txPin = 2;
+SoftwareSerial mySerial(4, txPin); // RX, TX
 
 void setup() {
-  pinMode(buttonPin, INPUT);    
- 
+  pinMode(buttonPin, INPUT);
+  pinMode(txPin, OUTPUT);
   mySerial.begin(9600);
-  mySerial.println("Hello, world?");
 }
 
-// While pressing the button, LED will go off, else it is on.
 void loop(){
   // read the state of the pushbutton value:
   int buttonState = digitalRead(buttonPin);
