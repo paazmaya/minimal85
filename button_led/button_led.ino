@@ -8,6 +8,7 @@
 // set pin numbers:
 const int buttonPin = 1;     // the number of the pushbutton pin
 const int ledPin =  3;      // the number of the LED pin
+// Even if the led is actually in pin 2, the number 3 above seems to be only working...
 
 // variables will change:
 int buttonState = 0;         // variable for reading the pushbutton status
