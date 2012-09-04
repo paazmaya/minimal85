@@ -12,5 +12,5 @@ Tools setup
 * Get Arduino-Tiny 0100-0015 (http://code.google.com/p/arduino-tiny/downloads/list)
 * Install Arduino 1.0.1
 * Copy files from Arduino-Tiny to Arduino 1.0.1 installation location
-* Start Arduino and check that in 'Tools' > 'Board' there are several ATtiny chips listed
-* The one listed as 'ATtiny85 @ 8 MHz (internal oscillator; BOD disabled)' is the one used.
+* Start Arduino and check that in `Tools` > `Board` there are several ATtiny chips listed
+* The one listed as `ATtiny85 @ 8 MHz (internal oscillator; BOD disabled)` is the one used.
