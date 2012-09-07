@@ -14,3 +14,9 @@ Tools setup
 * Copy files from Arduino-Tiny to Arduino 1.0.1 installation location
 * Start Arduino and check that in `Tools` > `Board` there are several ATtiny chips listed
 * The one listed as `ATtiny85 @ 8 MHz (internal oscillator; BOD disabled)` is the one used.
+
+Related links
+-------------
+
+* http://mchr3k-arduino.blogspot.fi/2012/01/history-getting-started-with-attiny85.html
+
