@@ -15,6 +15,20 @@ Tools setup
 * Start Arduino and check that in `Tools` > `Board` there are several ATtiny chips listed
 * The one listed as `ATtiny85 @ 8 MHz (internal oscillator; BOD disabled)` is the one used.
 
+
+ATMEL ATTINY45 / ARDUINO Pins
+-----------------------------
+
+As defined in `pins_arduino.c` of Arduino-Tiny.
+
+
+//                           +-\/-+
+//  Ain0       (D  5)  PB5  1|    |8   VCC
+//  Ain3       (D  3)  PB3  2|    |7   PB2  (D  2)  INT0  Ain1
+//  Ain2       (D  4)  PB4  3|    |6   PB1  (D  1)        pwm1
+//                     GND  4|    |5   PB0  (D  0)        pwm0
+//                           +----+
+
 Related links
 -------------
 
