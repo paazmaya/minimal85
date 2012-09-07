@@ -1,20 +1,8 @@
-/* Blink without Delay
+/* Blink without using Delay
  
- Turns on and off a light emitting diode(LED) connected to a digital  
- pin, without using the delay() function.  This means that other code
- can run at the same time without being interrupted by the LED code.
- 
- The circuit:
- * LED attached from pin 3 to ground.
- 
- 
- created 2005
- by David A. Mellis
- modified 8 Feb 2010
- by Paul Stoffregen
+ While the button is pressed, the led will not blink but will keep the last state. 
  
  This example code is in the public domain.
-
  
  http://www.arduino.cc/en/Tutorial/BlinkWithoutDelay
  */
