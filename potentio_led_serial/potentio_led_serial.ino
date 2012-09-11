@@ -14,9 +14,6 @@ const int txPin = 3;
 const int meterPin = A1; // analog
 SoftwareSerial mySerial(2, txPin); // RX, TX
 
-int brightness = 0;    // how bright the LED is
-int fadeAmount = 5;    // how many points to fade the LED by
-
 // the setup routine runs once when you press reset:
 void setup()  { 
   pinMode(led, OUTPUT);
@@ -32,13 +29,6 @@ void loop()  {
   mySerial.print("meter: ");
   mySerial.println(meter);
 
-  // change the brightness for next time through the loop:
-  brightness = brightness + fadeAmount;
-
-  // reverse the direction of the fading at the ends of the fade: 
-  if (brightness == 0 || brightness == 255) {
-    fadeAmount = -fadeAmount ; 
-  }     
   // wait for 30 milliseconds to see the dimming effect    
   delay(30);                            
 }
