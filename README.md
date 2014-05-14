@@ -1,12 +1,12 @@
-minimal85
-=========
+# minimal85
 
-Code snippets for Atmel ATtiny85 (http://www.atmel.com/devices/ATTINY85.aspx) via Arduino-Tiny (http://code.google.com/p/arduino-tiny/)
+Code snippets for [Atmel ATtiny85](http://www.atmel.com/devices/ATTINY85.aspx) via
+ [Arduino-Tiny](http://code.google.com/p/arduino-tiny/).
 
-Please note that all the examples are originally from Arduino project, which are just slightly modified.
+Please note that all the examples are originally from the 
+[Arduino project](http://arduino.cc), which are just slightly modified.
 
-Tools setup
------------
+## Tools setup
 
 * Get Arduino 1.0.1 (http://arduino.cc/en/Main/Software)
 * Get Arduino-Tiny 0100-0015 (http://code.google.com/p/arduino-tiny/downloads/list)
@@ -16,12 +16,11 @@ Tools setup
 * The one listed as `ATtiny85 @ 8 MHz (internal oscillator; BOD disabled)` is the one used.
 
 
-ATMEL ATTINY45 / ARDUINO Pins
------------------------------
+## ATMEL ATTINY45 / ARDUINO Pins
 
 As defined in `pins_arduino.c` of Arduino-Tiny.
 
-```
+```c
 //                           +-\/-+
 //  Ain0       (D  5)  PB5  1|    |8   VCC
 //  Ain3       (D  3)  PB3  2|    |7   PB2  (D  2)  INT0  Ain1
@@ -30,8 +29,7 @@ As defined in `pins_arduino.c` of Arduino-Tiny.
 //                           +----+
 ```
 
-Related links
--------------
+## Related links
 
 * http://mchr3k-arduino.blogspot.fi/2012/01/history-getting-started-with-attiny85.html
 
