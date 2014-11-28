@@ -1,9 +1,11 @@
 # minimal85
 
+[![Analytics](https://ga-beacon.appspot.com/UA-2643697-15/minimal85/index)](https://github.com/igrigorik/ga-beacon)
+
 Code snippets for [Atmel ATtiny85](http://www.atmel.com/devices/ATTINY85.aspx) via
  [Arduino-Tiny](http://code.google.com/p/arduino-tiny/).
 
-Please note that all the examples are originally from the 
+Please note that all the examples are originally from the
 [Arduino project](http://arduino.cc), which are just slightly modified.
 
 ## Tools setup
