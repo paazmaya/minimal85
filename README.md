@@ -35,3 +35,7 @@ As defined in `pins_arduino.c` of Arduino-Tiny.
 
 * http://mchr3k-arduino.blogspot.fi/2012/01/history-getting-started-with-attiny85.html
 
+
+## Contributing
+
+[Please refer to a GitHub blog post on how to create somewhat perfect pull request.](https://github.com/blog/1943-how-to-write-the-perfect-pull-request "How to write the perfect pull request")
