@@ -35,6 +35,9 @@ As defined in `pins_arduino.c` of Arduino-Tiny.
 
 * http://mchr3k-arduino.blogspot.fi/2012/01/history-getting-started-with-attiny85.html
 
+## License
+
+Copyright (c) [Juga Paazmaya <paazmaya@yahoo.com>](http://paazmaya.fi)
 
 ## Contributing
 
