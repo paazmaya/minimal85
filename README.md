@@ -37,7 +37,7 @@ As defined in `pins_arduino.c` of Arduino-Tiny.
 
 ## License
 
-Copyright (c) [Juga Paazmaya](http://paazmaya.fi) <paazmaya@yahoo.com>
+Copyright (c) [Juga Paazmaya](https://paazmaya.fi) <paazmaya@yahoo.com>
 
 ## Contributing
 
